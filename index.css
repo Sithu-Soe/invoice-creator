@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #3A69D2;
+    height: 190px;
+    color: white;
+    text-align: center
+}
+
+h1 {
+    padding-top: 50px;
+    margin: 0;
+}
+
+#header p {
+    margin-top: -20px;
+}
+
+#main {
+    background: #1F2937;
+}
+
+#button-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#button-container button {
+    color: #4A4E74;
+    margin: 30px;
+    padding: 9px 13px;
+    background-color: #D1D4F4;
+    border-radius: 7px;
+    border: 1px solid gray;
+
+}
+.titles {
+    color: #D5D4D8;
+    text-align: center;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border: 0.5px solid #C3C6DB;
+    margin: 0 40px;
+}
+
+#invoice-container{
+    padding: 40px;
+    padding-bottom: 100px;
+}
+#button-invoice{
+    width: 100%;
+    background: #3A69D2;
+    border: none;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#button-invoice img{
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+#items-list{
+    list-style: none;
+    padding: 0 40px;
+    margin: 0;
+}
+#items-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F5F5F5;
+}
+
+#items-list li button {
+    background: none;
+    border: none;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    padding: 8px;
+}
+
+#total-row {
+    color: #F5F5F5;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#total{
+    font-weight: 600;
+    font-size: 36px;
+}
