@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #1F2937;
 }
-
 #header{
     background-color: #3A69D2;
     height: 190px;
@@ -16,11 +16,12 @@ h1 {
 }
 
 #header p {
-    margin-top: -20px;
+    /* margin-top: -20px; */
 }
 
 #main {
-    background: #1F2937;
+    /* background: #1F2937; */
+    /* height: calc(100vh - 190px); */
 }
 
 #button-container {
@@ -53,7 +54,6 @@ hr {
 
 #invoice-container{
     padding: 40px;
-    padding-bottom: 100px;
 }
 #button-invoice{
     width: 100%;
@@ -96,7 +96,7 @@ hr {
     line-height: 20px;
     text-align: center;
     position: absolute;
-    padding: 8px;
+    padding: 0 8px;
 }
 
 #total-row {
